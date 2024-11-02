@@ -7,6 +7,7 @@ body {
 .header {
   position: absolute;
   top: 0;
+  height: 50px;
   width: 100%;
   padding: 1rem;
   background-color: rgba(112, 128, 144, 0.5); /* Semi-transparent background */
@@ -14,9 +15,7 @@ body {
   text-align: right;
   
 }
-nav{
-  
-}
+
 nav ul {
   list-style: none;
   display: inline-flex;
@@ -61,35 +60,40 @@ h2 {
   background-color: rgba(112, 128, 144, 0.5); /* Semi-transparent background */
   color: white;
   padding: 1rem;
+ 
+
+}
+
+.footer-ul {
+  list-style: none;
   display: flex;
   justify-content: right;
   align-items: center;
-}
-
-footer ul {
-  list-style: none;
-  display: flex;
   gap: 20px; /* Spacing between items */
   margin: 0;
-  padding: 2%;
+  padding-right: 2%;
+  padding-top: 1%;
 }
 
-footer li {
-  font-size: 1.2em;
+.f-li {
+  font-size: 16px;
   margin: 0;
   padding: 0%;
 }
 
-footer a {
+.f-a {
   text-decoration: none;
   color: #fff;
   display: block;
 }
 
-footer a:hover {
+.f-a:hover {
   text-decoration: underline;
 }
 #sm-logos {
   height: 25px;
   width: 25px;
+}
+#left {
+  margin-right: auto;
 }
