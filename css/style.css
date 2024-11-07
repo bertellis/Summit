@@ -37,7 +37,14 @@ li a:hover{
   text-decoration: underline;
 }
 div {
-  
+  position: absolute;
+  display: flex;
+  top: 0;
+  height: 300px;
+  width: 100px;
+  padding: 1rem;
+  background-color: rgba(112, 128, 144, 0.5); /* Semi-transparent background */
+  color: white;
 }
 
 .img {
@@ -96,4 +103,9 @@ h2 {
 }
 #left {
   margin-right: auto;
+}
+#logo-left {
+  margin-right: auto;
+  width: 5cap;
+  height: 50px;
 }
