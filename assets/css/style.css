@@ -24,6 +24,28 @@ body {
   color: white;
 }
 
+/*Main*/
+
+.bg-fill {
+  background-color: var(--highlight-color);
+}
+
+.bg-image {
+  background-image: url("../img/snowdonia.jpg");
+  height: 100vh;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+/*
+
+.sections-fill {
+  background-color: #416a8e;
+  color: white;
+}
+*/
+
 /*Footer*/
 
 #contact {
