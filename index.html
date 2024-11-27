@@ -18,13 +18,14 @@
 
 </head>
 
-<body class="d-flex flex-column min-vh-100 bg-image">
+<body class="d-flex flex-column min-vh-100">
 
     <!--Navbar-->
 
     <nav id="navbar" class="navbar navbar-expand-lg fixed-top navbar-dark">
         <div class="container-fluid">
-          <a class="navbar-brand" href="index.html">Summit Events</a>
+          <a class="navbar-brand" href="index.html">
+            <h1 class="display-4">SuMMit Events</h1></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -38,43 +39,99 @@
           </div>
         </div>
       </nav>
+      <!--<div class="container justify-content-left">
+        <h5>Your adventure starts here!</h5>
+      </div>-->
 
       <!--Main Section-->
       <main>
         <!--Mountain-->
-        <section>
-            <div id="mountain" class="container">
-                <div class="row">
-                    <div class="col-12 bg-fill my-5">
-                        <h1>Mountain</h1>
-                        <p class="col-8">Explore Eryri National Park with a qualified Mountain Leader. We run weekly mountain days walking the lesser known peaks of North Wales
-                        </p><i class="fa-solid fa-mountain float-end mb-10"></i>
+
+        <section id="mountain" class="container section mt-4">
+          <div class="row">
+            <div class="col-12 text-center">
+              <h2 class="display-8 mb-4">Your adventure starts here</h2>
+            </div>
+            <div class="col-12 col-md-6 col-xl-3 mx-4">
+              <div class="card mnt-bg" style="width: 18rem;">
+                <img src="assets/img/snowdonia.jpg" class="card-img-top" alt="image of Eryri (Snowdonia) National Park">
+                  <div class="card-body">
+                    <h5 class="card-title">mountain days</h5>
+                      <p class="card-text">Explore Eryri National Park with a qualified Mountain Leader. We run weekly mountain days walking the lesser known peaks of North Wales</p>
+                        <a href="#" class="btn btn-primary">Book</a>
+                  </div>
+              </div>
+            </div>
+              <div class="col-12 col-md-6 col-xl-3 mx-4">
+                <div class="card fst-bg" style="width: 18rem;">
+                  <img src="assets/img/bushcraft.jpg" class="card-img-top" alt="image of Eryri (Snowdonia) National Park">
+                    <div class="card-body">
+                      <h5 class="card-title">forest days</h5>
+                        <p class="card-text">Lost in the woods? No problem! Our bushcraft instructors can teach you how to build a shelter, start a fire, find a water source and a whole lot more.</p>
+                          <a href="#" class="btn btn-primary">Book</a>
                     </div>
                 </div>
+              </div>
+            </div>
+          </div>
+
+        <section id="mountain">
+            <div class="container d-flex justify-content-left mt-4">
+                <div class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class="col-8 col-md-4 d-flex justify-content-center align-items-center favi">
+                    <i class="fa-solid fa-mountain fa-2xl d-flex"></i>
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Mountain</h5>
+                      <p class="card-text">Explore Eryri National Park with a qualified Mountain Leader. We run weekly mountain days walking the lesser known peaks of North Wales</p>
+                      <button type="button" class="btn btn-outline-primary">Book</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
         </section>
         <!--forest-->
-        <section>
-            <div id="forest" class="container">
-                <div class="row">
-                    <div class="col-12 bg-fill my-5">
-                        <h1>Forest</h1>
-                        <p>bushcraft text goes here</p><i class="fa-solid fa-tree"></i>
+        <section id="forest">
+            <div class="container justify-content-left mt-4">
+                <div class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class="col-8 col-md-4 d-flex justify-content-center align-items-center favi">
+                    <i class="fa-solid fa-tree fa-2xl"></i>
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Forest</h5>
+                      <p class="card-text">Lost in the woods? No problem! Our bushcraft instructors can teach you how to build a shelter, start a fire, find a water source and much more.</p>
+                      <button type="button" class="btn btn-outline-primary">Book</button>
                     </div>
+                  </div>
                 </div>
+              </div>
             </div>
         </section>
         <!--river-->
-        <section>
-            <div id="river" class="container">
-                <div class="row">
-                    <div class="col-12 bg-fill my-5">
-                        <h1>River</h1>
-                        <p>paddling text goes here</p>
+        <section id="river">
+            <div class="container justify-content-left mt-4">
+                <div class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class="col-8 col-md-4 d-flex justify-content-center align-items-center favi">
+                    <i class="fa-solid fa-water fa-2xl"></i>
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">River</h5>
+                      <p class="card-text"></p>
+                      <button type="button" class="btn btn-outline-primary">Book</button>
                     </div>
+                  </div>
                 </div>
+              </div>
             </div>
         </section>
+
       
     </main>
 

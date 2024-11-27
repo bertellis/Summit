@@ -5,16 +5,21 @@
 :root {
     --primary-font: "Montserrat", sans-serif;
     --secondary-font: ;
-    --primary-color: #708090; /* slate grey */
-    --highlight-color: #416a8e; /* blue */
-    --highlight-color-light: #ffffff; /*white*/  
+    --primary-color: #416a8e; /* slate grey */
+    --highlight-color: #3ec0ff; /* electric blue */
+    --highlight-color-sunshine: #ffc700; /*golden yellow*/  
   }
 
   /* Global styles */
 
 body {
   font-family: var(--primary-font);
-  padding-top: 57.15px; /*pushed body below fixed navbar*/
+  padding-top: 93.87px; /*pushed body below fixed navbar*/
+  background-color: white;
+}
+
+h2 {  
+  color: var(--primary-color);
 }
 
 /*Navbar*/
@@ -22,12 +27,16 @@ body {
 #navbar {
   background-color: var(--primary-color);
   color: white;
+  border-bottom: 2px solid white;
 }
 
 /*Main*/
 
-.bg-fill {
+.mnt-bg {
   background-color: var(--highlight-color);
+}
+.fst-bg {
+  background-color: var(--highlight-color-sunshine);
 }
 
 .bg-image {
@@ -36,15 +45,25 @@ body {
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
+  border-bottom: 4px solid var(--primary-color);
 }
 
-/*
-
-.sections-fill {
-  background-color: #416a8e;
-  color: white;
+.bg-image-2 {
+  background-image: url("../img/bushcraft.jpg");
+  height: 100vh;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  border-bottom: 4px solid var(--primary-color);
 }
-*/
+
+
+.favi {
+  font-size: xxx-large;
+  background-position: center;
+  background-size: cover;
+}
+
 
 /*Footer*/
 
