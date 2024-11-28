@@ -1,13 +1,14 @@
 /* Google fonts import */
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rock+Salt&display=swap");
 
 /* CSS Variables */
 :root {
     --primary-font: "Montserrat", sans-serif;
-    --secondary-font: ;
+    --secondary-font: "Rock Salt", cursice;
     --primary-color: #416a8e; /* slate grey */
     --highlight-color: #3ec0ff; /* electric blue */
-    --highlight-color-sunshine: #ffc700; /*golden yellow*/  
+    --highlight-color-sunshine: #ffc700; /*golden yellow*/ 
+
   }
 
   /* Global styles */
@@ -20,6 +21,7 @@ body {
 
 h2 {  
   color: var(--primary-color);
+  font-family: var(--secondary-font);
 }
 
 /*Navbar*/
@@ -38,8 +40,28 @@ h2 {
 .fst-bg {
   background-color: var(--highlight-color-sunshine);
 }
+.rvr-bg {
+  background-color: #20c997;
+}
+.tgt-bg {
+  background-color: #ff6b6b;
+}
 
-.bg-image {
+.card-img-top {
+  align-self: center;
+  margin-top: 10px;
+  width: 270px;
+  height: 207px;
+}
+
+/*buttons*/
+
+.btn {
+  background-color: var(--primary-color);
+  border: none;
+}
+
+.bwg-image {
   background-image: url("../img/snowdonia.jpg");
   height: 100vh;
   background-position: center; /* Center the image */
@@ -48,7 +70,7 @@ h2 {
   border-bottom: 4px solid var(--primary-color);
 }
 
-.bg-image-2 {
+.bwg-image-2 {
   background-image: url("../img/bushcraft.jpg");
   height: 100vh;
   background-position: center; /* Center the image */
