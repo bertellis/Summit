@@ -80,12 +80,25 @@ h4 i {
 .mountain-container {
   display: flex;
   justify-content: center;
+  padding-top: 15px;
 }
-.details {
+.forest-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+}
+.details-m {
   padding-top: 4px;
   justify-content: center;
   display: flex;
   border: 4px solid var(--highlight-color);
+  width: 98%;
+}
+.details-f {
+  padding-top: 4px;
+  justify-content: center;
+  display: flex;
+  border: 4px solid var(--highlight-color-sunshine);
   width: 98%;
 }
 .details h4 {
