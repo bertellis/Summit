@@ -1,10 +1,10 @@
 /* Google fonts import */
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rock+Salt&display=swap");
 
-/* CSS Variables */
+/* CSS Variables taken from the boadwalk games walkthrough and adjusted to fit the Summit Events styles */
 :root {
     --primary-font: "Montserrat", sans-serif;
-    --secondary-font: "Rock Salt", cursice;
+    --secondary-font: "Rock Salt", cursive;
     --primary-color: #416a8e; /* slate grey */
     --highlight-color: #3ec0ff; /* electric blue */
     --highlight-color-sunshine: #ffc700; /*golden yellow*/ 
@@ -15,7 +15,7 @@
 
 body {
   font-family: var(--primary-font);
-  padding-top: 93.87px; /*pushed body below fixed navbar*/
+  padding-top: 93.87px; /*pushed body below fixed navbar - taken from Boardwalk walkthrough and adjusted for this site*/
   background-color: white;
 }
 
@@ -29,10 +29,11 @@ h2 {
 #navbar {
   background-color: var(--primary-color);
   color: white;
-  border-bottom: 2px solid white;
 }
 
 /*Main*/
+
+/*Cards*/
 
 .mnt-bg {
   background-color: var(--highlight-color);
@@ -48,11 +49,15 @@ h2 {
 }
 
 .card-img-top {
-  align-self: center;
-  margin-top: 10px;
-  width: 270px;
-  height: 207px;
+  width: 90%; /* Set the width to a percentage of its container */
+  height: 90%; /* Maintain aspect ratio */
+  margin: 15px auto; /* Add top and bottom margin for spacing */
+  display: block; /* Center-align the image */
+  border-radius: 5px; /* Optional: Adds slight rounding to the border */
+  object-fit: cover;
+  aspect-ratio: 16 / 9;
 }
+
 
 /*buttons*/
 
@@ -99,3 +104,16 @@ h2 {
   font-size: 1.9rem;
   transition: color 0.3s ease-in-out;
 }
+
+/*Media query from stackoverflow*/
+/*Media query for small devices up to 768px in portrait*/
+
+@media screen and (min-width: 768px) {
+  /* Make main section cards the same height and give image-top class max height to keep them consistent*/
+      .card {
+      min-height: 450px;}
+      .card-img-top {
+        max-height: 138px;
+      }
+
+  }
