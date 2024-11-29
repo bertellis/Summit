@@ -71,7 +71,14 @@ h2 {
   background-position: center;
   background-size: cover;
 }
+/*Details & equiries section*/
 
+.details {
+  padding-top: 4px;
+  justify-content: left;
+  display: flex;
+  border: 2px solid var(--primary-color);
+}
 
 /*Footer*/
 
