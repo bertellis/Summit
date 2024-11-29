@@ -24,6 +24,10 @@ h2 {
   font-family: var(--secondary-font);
 }
 
+h4 i {
+  color: #3ec0ff;
+}
+
 /*Navbar*/
 
 #navbar {
@@ -73,11 +77,25 @@ h2 {
 }
 /*Details & equiries section*/
 
+.mountain-container {
+  display: flex;
+  justify-content: center;
+}
 .details {
   padding-top: 4px;
-  justify-content: left;
+  justify-content: center;
   display: flex;
   border: 2px solid var(--primary-color);
+  width: 98%;
+}
+.details h4 {
+  padding-top: 15px;
+  padding-left: 15px;
+}
+.details p {
+  text-align: left;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 /*Footer*/
