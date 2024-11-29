@@ -66,25 +66,6 @@ h2 {
   border: none;
 }
 
-.bwg-image {
-  background-image: url("../img/snowdonia.jpg");
-  height: 100vh;
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover; /* Resize the background image to cover the entire container */
-  border-bottom: 4px solid var(--primary-color);
-}
-
-.bwg-image-2 {
-  background-image: url("../img/bushcraft.jpg");
-  height: 100vh;
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover; /* Resize the background image to cover the entire container */
-  border-bottom: 4px solid var(--primary-color);
-}
-
-
 .favi {
   font-size: xxx-large;
   background-position: center;
