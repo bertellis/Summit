@@ -54,7 +54,7 @@ h4 i {
 
 .card-img-top {
   width: 90%; /* Set the width to a percentage of its container */
-  height: 90%; /* Maintain aspect ratio */
+  height: 90%;
   margin: 15px auto; /* Add top and bottom margin for spacing */
   display: block; /* Center-align the image */
   border-radius: 5px; /* Optional: Adds slight rounding to the border */
@@ -75,7 +75,7 @@ h4 i {
   background-position: center;
   background-size: cover;
 }
-/*Details & equiries section*/
+/*Details & equiries sections*/
 
 .mountain-container {
   display: flex;
@@ -85,7 +85,7 @@ h4 i {
   padding-top: 4px;
   justify-content: center;
   display: flex;
-  border: 2px solid var(--primary-color);
+  border: 4px solid var(--highlight-color);
   width: 98%;
 }
 .details h4 {
@@ -96,6 +96,13 @@ h4 i {
   text-align: left;
   padding-left: 15px;
   padding-right: 15px;
+}
+.btn-details {
+  margin-left: 15px;
+  margin-bottom: 15px;
+}
+.btn-details:hover {
+  background-color: #3ec0ff;
 }
 
 /*Footer*/
