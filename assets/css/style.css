@@ -52,6 +52,13 @@ h4 i {
   background-color: #ff6b6b;
 }
 
+.info-img {
+  max-height: 142px;
+}
+.card {
+
+}
+
 .card-img-top {
   width: 90%; /* Set the width to a percentage of its container */
   height: 90%;
@@ -104,6 +111,13 @@ h4 i {
   border: 4px solid var(--highlight-color-sunshine);
   width: 98%;
 }
+.details-r {
+  padding-top: 4px;
+  justify-content: center;
+  display: flex;
+  border: 4px solid #20c997;
+  width: 98%;
+}
 .details h4 {
   padding-top: 15px;
   padding-left: 15px;
@@ -152,11 +166,13 @@ h4 i {
       .card-img-top {
         max-height: 138px;
       }
-
+      .fst-bg, .mnt-bg, .rvr-bg {
+        min-height: 170px;
+      }
   }
 
   @media screen and (min-width: 768px) {
-      .review-card {
+      .review-card, .fst-bg, .mnt-bg, .rvr-bg, .card-img-top {
         min-height: 250px;
       }    
   }
