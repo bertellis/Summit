@@ -24,17 +24,69 @@
           <div class="navbar-nav ms-auto">
             <a class="nav-link active" aria-current="page" href="index.html">home</a>
             <a class="nav-link" href="index.html#reviews">what people say</a>
-            <a class="nav-link" href="index.html#about-us">gallery</a>
             <a class="nav-link" href="index.html#contact">contact</a>
           </div>
         </div>
       </div>
     </nav>
     <!--Booking form section-->
-    <section>
-      <form action=""></form>
+    <!-- header section -->
 
-    </section>
+<header id="header" class="container section">
+  <div class="row justify-content-center">
+      <div class="col-12 col-md-8 text-center text-xl-start">
+        <h2 class="my-4">Booking inquiry</h2>
+          <h4 class="my-4">
+              Adventure is only a short form away! Pop in your details and write us 
+              a quick message with any special requirements. We'll get
+              back as soon as possible to confirm
+              your booking and answer any questions you may have.
+          </h4>
+      </div>
+  </div>
+</header>
+
+<!-- Booking inquiry form section -->
+
+<main>
+  <section id="booking-form" class="container section">
+      <div class="row justify-content-center">
+          <div class="col-12 col-md-8">
+              <form action="success.html" method="get">
+                  <div class="row">
+                      <div class="col-12 col-lg-6 mb-3">
+                          <label for="name" class="form-label">Name</label>
+                          <input class="form-control" id="name" name="name" type="text" required>
+                      </div>
+                      <div class="col-12 col-lg-6 mb-3">
+                          <label for="email" class="form-label">Email</label>
+                          <input class="form-control" id="email" name="email" type="email" required> 
+                      </div>
+                      <div class="col-12 col-lg-6 mb-3">
+                          <label for="phone" class="form-label">Phone number</label>
+                          <input class="form-control" id="phone" name="phone" type="number" required>
+                      </div>
+                      <div class="col-12 col-lg-6 mb-3">
+                          <label for="event-type" class="form-label">Event type</label>
+                          <select id="event-type" class="form-select" name="event-type" required>
+                              <option value="" selected>Select</option>
+                              <option value="mountain-day">mountain day</option>
+                              <option value="forest-day">forest day</option>
+                              <option value="on-the-water">on the water</option>
+                              <option value="targets">tagets</option>
+                          </select>
+                      </div>
+                      <div class="col-12 mb-3">
+                          <label for="message" class="form-label">Message</label>
+                          <textarea class="form-control" rows="6" id="message" name="message" required></textarea>
+                      </div>
+                  </div>
+                  <button type="submit" class="btn btn-primary mb-4">Submit</button>
+              </form>
+          </div>
+      </div>
+  </section>
+</main>
     <!--Footer / contact section-->
     <!--mt-auto added to push footer to the bottom-->
     <footer id="contact" class="mt-auto">

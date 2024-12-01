@@ -85,9 +85,9 @@ h4 i {
   background-position: center;
   background-size: cover;
 }
-/*Reviews*/
+/*Reviews to prevent nav overlap (taken from Boardwalk walkthrough*/
 #reviews {
-  padding-top: 93.87px;
+  padding: 6rem;
 }
 
 /*Details & equiries sections*/
