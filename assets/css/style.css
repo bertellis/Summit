@@ -78,6 +78,17 @@ h4 i {
 .btn {
   background-color: var(--primary-color);
   border: none;
+  color: white;
+}
+/*From chatgtp*/
+.btn-hover-effect {
+  transition: transform 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.btn-hover-effect:hover {
+  transform: scale(1.1); /* Increases the button size by 10% */
+  color: white;
+  background-color: var(--primary-color);
 }
 
 .favi {
