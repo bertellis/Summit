@@ -143,6 +143,13 @@ h4 i {
   background-color: var(--highlight-color-sunshine);
   color: black;
 }
+/*Off canvas styles*/
+.bdr-m {
+  border: 4px solid var(--highlight-color);
+}
+.bdr-f {
+  border: 4px solid var(--highlight-color-sunshine);
+}
 /*Footer*/
 
 #contact {
