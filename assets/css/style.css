@@ -145,10 +145,16 @@ h4 i {
 }
 /*Off canvas styles*/
 .bdr-m {
-  border: 4px solid var(--highlight-color);
+  border: 8px solid var(--highlight-color);
 }
 .bdr-f {
-  border: 4px solid var(--highlight-color-sunshine);
+  border: 8px solid var(--highlight-color-sunshine);
+}
+.bdr-w {
+  border: 8px solid #20c997;
+}
+.bdr-t {
+  border: 8px solid #ff6b6b;
 }
 /*Footer*/
 
