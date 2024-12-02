@@ -34,6 +34,21 @@ h4 i {
   background-color: var(--primary-color);
   color: white;
 }
+.nav-link {
+  color:  #FAF9F6;
+}
+.nav-link-effect {
+  transition: transform 0.3s ease; /* Smooth transition for hover effect */
+}
+.nav-link:hover {
+    transform: scale(1.1); /* Increases the button size by 10% */
+    color: white;
+    background-color: var(--primary-color);
+}
+.active {
+  text-decoration: underline;
+}
+
 
 /*Main*/
 
@@ -54,9 +69,6 @@ h4 i {
 
 .info-img {
   max-height: 142px;
-}
-.card {
-
 }
 
 .card-img-top {
