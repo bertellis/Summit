@@ -242,8 +242,20 @@ h4 i {
   @media screen and (min-width: 768px) {
       .review-card, .fst-bg, .mnt-bg, .rvr-bg, .card-img-top {
         min-height: 250px;
-      }    
+      }
+    }
+    /* Media query to disable the effects on screens under 768px */
+@media (max-width: 767px) {
+  .nav-link-effect {
+    transition: none; /* Disable transition effect on hover */
   }
+
+  .nav-link:hover {
+    transform: none; /* Disable scale effect on hover */
+    color: inherit; /* Reset color to default */
+    background-color: inherit; /* Reset background color */
+  }
+}
   
   @media screen and (min-width: 1400px) {
     .review-card {
