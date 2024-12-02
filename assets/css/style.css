@@ -80,17 +80,14 @@ h4 i {
   border: none;
   color: white;
 }
-/*From chatgtp*/
 .btn-hover-effect {
   transition: transform 0.3s ease; /* Smooth transition for hover effect */
 }
-
 .btn-hover-effect:hover {
   transform: scale(1.1); /* Increases the button size by 10% */
   color: white;
   background-color: var(--primary-color);
 }
-
 .favi {
   font-size: xxx-large;
   background-position: center;
@@ -101,7 +98,7 @@ h4 i {
   padding: 6rem;
 }
 
-/*Details & equiries sections*/
+/*Details & pictures sections*/
 
 .mountain-container {
   display: flex;
@@ -205,6 +202,17 @@ h4 i {
 }
 
 /*Media query from stackoverflow*/
+/*For the Summit Title font size to shrink on 280 + and then to 2rem on 380+*/
+@media screen and (min-width:280px) {
+  .display-4 {
+    font-size: 1.5rem;
+  }  
+}
+@media screen and (min-width:380px) {
+  .display-4 {
+    font-size: 2rem;
+  }
+}
 /*Media query for small devices up to 768px in portrait*/
 
 @media screen and (min-width: 768px) {
