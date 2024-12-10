@@ -28,7 +28,7 @@ h4 i {
   color: var(--primary-color);
 }
 
-/*Navbar*/
+/*Navbar Custom styles for the bootstrap navbar*/
 
 #navbar {
   background-color: var(--primary-color);
@@ -52,7 +52,7 @@ h4 i {
 
 /*Main*/
 
-/*Cards*/
+/*Cards - Custom styles for bootstrap cards*/
 
 .mnt-bg {
   background-color: var(--highlight-color);
@@ -70,7 +70,7 @@ h4 i {
 .info-img {
   max-height: 142px;
 }
-
+/*Custom styling to the bootstrap card size*/
 .card-img-top {
   width: 90%; /* Set the width to a percentage of its container */
   height: 90%;
@@ -93,7 +93,7 @@ h4 i {
   color: white;
 }
 .btn-hover-effect {
-  transition: transform 0.3s ease; /* Smooth transition for hover effect */
+  transition: transform 0.3s ease; /* Smooth transition for hover effect - idea taken from stack overflow */
 }
 .btn-hover-effect:hover {
   transform: scale(1.1); /* Increases the button size by 10% */
@@ -105,7 +105,7 @@ h4 i {
   background-position: center;
   background-size: cover;
 }
-/*Reviews to prevent nav overlap (taken from Boardwalk walkthrough*/
+/*Reviews to prevent nav overlap when navigating to the section from the nav bar (idea taken from Boardwalk walkthrough*/
 #reviews {
   padding: 6rem;
 }
@@ -168,7 +168,7 @@ h4 i {
   background-color: var(--highlight-color-sunshine);
   color: black;
 }
-/*Off canvas styles*/
+/*Off canvas styles - modified border colours to match the main colouring*/
 .bdr-m {
   border: 8px solid var(--highlight-color);
 }
@@ -208,7 +208,7 @@ h4 i {
   font-size: 1.9rem;
   transition: color 0.3s ease-in-out;
 }
-/*Success*/
+/*Success page to move the section to a central position*/
 #success {
   padding-top: 100px;
 }
@@ -244,8 +244,9 @@ h4 i {
         min-height: 250px;
       }
     }
-    /* Media query to disable the effects on screens under 768px */
-@media (max-width: 767px) {
+    /* Media query to disable the effects on screens under 768px as the size increase looked terrible
+     on the dropdown menu */
+  @media (max-width: 767px) {
   .nav-link-effect {
     transition: none; /* Disable transition effect on hover */
   }
@@ -256,7 +257,7 @@ h4 i {
     background-color: inherit; /* Reset background color */
   }
 }
-  
+  /*Fixed the display issue on larger screens*/
   @media screen and (min-width: 1400px) {
     .review-card {
       min-height: 235px;
