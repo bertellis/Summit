@@ -121,7 +121,18 @@ The website is fully navigable using the keyboard. Users can easily navigate bet
 #### Wave Chrome Accessibility Tool
 The WAVE Web Accessibility Evaluation Tool is a free browser extension that helps identify and fix accessibility issues on web pages.
 
-\*\*Images to follow
+##### Home Page
+
+<img width="1275" alt="Screenshot 2024-12-10 at 23 33 08" src="https://github.com/user-attachments/assets/15ae350d-5772-455d-a010-fd6bedf333a5">
+
+##### Booking Page
+
+<img width="1277" alt="Screenshot 2024-12-10 at 23 34 26" src="https://github.com/user-attachments/assets/96668a77-d95e-4711-a58e-25bd5b9fe895">
+
+##### Success Page
+
+<img width="1277" alt="Screenshot 2024-12-10 at 23 35 14" src="https://github.com/user-attachments/assets/f2462e64-cca8-4078-8f2c-4886b55561ce">
+
 
 ## Installation and Setup
 
