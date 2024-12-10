@@ -15,14 +15,15 @@
 
 ## Introduction
 
-Summit Events is a static front-end website desinged to function as a first port of call for anyone wishing to book an activity through Summit Events or find out more information about the services they offer. It is designed to be simple, accessible, and fully responsive, ensuring users have a seamless experience whatever device they're browsing from - mobile or desktop.
+Summit Events is a static front-end website desinged to function as a first port of call for anyone wishing to book an activity through Summit Events or find out more information about the services they offer. It is designed to be simple, accessible, and fully responsive, ensuring users have a seamless experience whatever device they're browsing from - phone, tablet or desktop.
 
-Image insert
+<img width="1165" alt="Screenshot 2024-12-10 at 23 03 48" src="https://github.com/user-attachments/assets/22e6007b-a112-4d7e-963d-e04b329d93fb">
 
-The website features:
+
+#### The website features:
 
 * A Home page with an introduction sections to each part of the business, with links to more information and a booking form.
-* A review section with two customer reviews about different aspects of tbe business.
+* A review section with two customer reviews about different aspects of the business.
 * A contact section with the business address, phone number and email address
 * The site uses HTML5, CSS3, and Bootstrap for responsive layout and styling.
 
