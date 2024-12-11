@@ -155,7 +155,18 @@ https://bertellis.github.io/Summit/
 
 ## Attribution
 
-Images: All images are sources from google image searches using free-to-use images.
+Images: All images links can be found below.
+
+* bushcraft.jpeg - [dreamstime](https://www.dreamstime.com/woodland-shelter-survival-bushcraft-course-british-columbia-canada-twigs-branches-logs-piled-together-to-build-image182173113)
+* bushcraft2.jpeg - [woodland classroom](https://woodlandclassroom.com/wp-content/uploads/2017/01/shelter-build-bare-skeleton.jpg)
+* river.jpeg - [istockphoto](https://media.istockphoto.com/id/1040101718/photo/river-dee-rapids-llangollen-wales.jpg?s=612x612&w=0&k=20&c=CQe1MRPvxAjHR2kMIfS9PM4IAmCbO9s8lXqT69lLmQM=)
+* canoe.jpeg - [Canoe-shops.co.uk](https://cdn.shopify.com/s/files/1/0600/9254/7246/files/rti-13-rapids-l_dcfb1959-9f27-4735-b500-9f69a3545903.jpg?v=1647087945)
+* target.jpeg - [Eccles archery club](https://eccles-archery-club.org.uk/uploads/2023/07/what-are-archery-targets-called.webp)
+* archery.jpeg - [theguardian](https://www.theguardian.com/lifeandstyle/2014/sep/25/beginners-guide-to-archery#img-1)
+* mountainsunset.jpeg - [find your confidence](https://www.findyourconfidence.co.uk/assets/img/woman-standing-watching-sunset.jpg)
+* rocks.jpeg - [istockphoto](https://media.istockphoto.com/id/1394615769/photo/jagged-rocks-near-the-summit-of-glyder-fach-with-a-view-of-snowdon-snowdonia-north-wales-uk.jpg?s=612x612&w=0&k=20&c=ZO3vbtmRs5sSmavqlBtb2Qqfcgvjeu9xooVnA3dCZHM=)
+
+
 
 
 Bootstrap is used for responsive design. Attribution can be found in the code.
