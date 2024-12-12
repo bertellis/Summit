@@ -28,7 +28,7 @@ h4 i {
   color: var(--primary-color);
 }
 
-/*Navbar Custom styles for the bootstrap navbar*/
+/*Navbar - Custom styles for the bootstrap navbar*/
 
 #navbar {
   background-color: var(--primary-color);
@@ -38,17 +38,16 @@ h4 i {
   color:  #FAF9F6;
 }
 .nav-link-effect {
-  transition: transform 0.3s ease; /* Smooth transition for hover effect */
+  transition: transform 0.3s ease; /* Smooth transition for hover effect idea taken from stack overflow */
 }
 .nav-link:hover {
-    transform: scale(1.1); /* Increases the button size by 10% */
+    transform: scale(1.1); /* Increases the button size by 10% idea taken from stack overflow */
     color: white;
     background-color: var(--primary-color);
 }
 .active {
   text-decoration: underline;
 }
-
 
 /*Main*/
 
@@ -71,6 +70,7 @@ h4 i {
   max-height: 142px;
 }
 /*Custom styling to the bootstrap card size*/
+
 .card-img-top {
   width: 90%; /* Set the width to a percentage of its container */
   height: 90%;
@@ -84,7 +84,6 @@ h4 i {
   border: 4px solid var(--primary-color);
 }
 
-
 /*buttons*/
 
 .btn {
@@ -96,79 +95,20 @@ h4 i {
   transition: transform 0.3s ease; /* Smooth transition for hover effect - idea taken from stack overflow */
 }
 .btn-hover-effect:hover {
-  transform: scale(1.1); /* Increases the button size by 10% */
+  transform: scale(1.1); /* Increases the button size by 10% - taken from stack overflow */
   color: white;
   background-color: var(--primary-color);
 }
-.favi {
-  font-size: xxx-large;
-  background-position: center;
-  background-size: cover;
-}
-/*Reviews to prevent nav overlap when navigating to the section from the nav bar (idea taken from Boardwalk walkthrough*/
+
+/*Reviews pushed down to prevent nav overlap when navigating to the section from the nav bar 
+(idea taken from Boardwalk walkthrough)*/
+
 #reviews {
   padding: 6rem;
 }
 
-/*Details & pictures sections*/
-
-.mountain-container {
-  display: flex;
-  justify-content: center;
-  padding-top: 15px;
-}
-.forest-container {
-  display: flex;
-  justify-content: center;
-  padding-top: 15px;
-}
-.details-m {
-  padding-top: 4px;
-  justify-content: center;
-  display: flex;
-  border: 4px solid var(--highlight-color);
-  width: 98%;
-}
-.details-f {
-  padding-top: 4px;
-  justify-content: center;
-  display: flex;
-  border: 4px solid var(--highlight-color-sunshine);
-  width: 98%;
-}
-.details-r {
-  padding-top: 4px;
-  justify-content: center;
-  display: flex;
-  border: 4px solid #20c997;
-  width: 98%;
-}
-.details h4 {
-  padding-top: 15px;
-  padding-left: 15px;
-}
-.details p {
-  text-align: left;
-  margin-left: 15px;
-  margin-right: 15px;
-}
-.btn-details-m {
-  margin-left: 15px;
-  margin-bottom: 15px;
-}
-.btn-details-f {
-  margin-left: 15px;
-  margin-bottom: 15px;
-}
-.btn-details-m:hover {
-  background-color: #3ec0ff;
-  color: black;
-}
-.btn-details-f:hover {
-  background-color: var(--highlight-color-sunshine);
-  color: black;
-}
 /*Off canvas styles - modified border colours to match the main colouring*/
+
 .bdr-m {
   border: 8px solid var(--highlight-color);
 }
@@ -181,7 +121,9 @@ h4 i {
 .bdr-t {
   border: 8px solid #ff6b6b;
 }
+
 /*contact section*/
+
 .box {
   display: flex;
   align-items: center;
@@ -196,25 +138,28 @@ h4 i {
   margin-top: 10px;
   margin-bottom: 10px;
 }
+
 /*Footer*/
 
 #contact {
   background-color: var(--primary-color);
   color: white;
 }
+/*Increase size of social media icons*/
 
 #contact .social-links i {
-  color: var(--highlight-color-light);
   font-size: 1.9rem;
-  transition: color 0.3s ease-in-out;
 }
-/*Success page to move the section to a central position*/
+/*Success page to move the <section> to a central position*/
+
 #success {
   padding-top: 100px;
 }
+/*All Media Queries*/
 
 /*Media query from stackoverflow*/
-/*For the Summit Title font size to shrink on 280 + and then to 2rem on 380+*/
+/*For the Summit Events Title font size to shrink on 280 + to stop it spilling over to two lines, and then to 2rem on 380+ */
+
 @media screen and (min-width:280px) {
   .display-4 {
     font-size: 1.5rem;
@@ -237,27 +182,25 @@ h4 i {
       .fst-bg, .mnt-bg, .rvr-bg, .tgt-bg {
         min-height: 170px;
       }
-  }
-
-  @media screen and (min-width: 768px) {
-      .review-card, .fst-bg, .mnt-bg, .rvr-bg, .card-img-top {
+      .review-card, .card-img-top {
         min-height: 250px;
       }
     }
     /* Media query to disable the effects on screens under 768px as the size increase looked terrible
      on the dropdown menu */
+
   @media (max-width: 767px) {
   .nav-link-effect {
     transition: none; /* Disable transition effect on hover */
   }
-
   .nav-link:hover {
     transform: none; /* Disable scale effect on hover */
     color: inherit; /* Reset color to default */
     background-color: inherit; /* Reset background color */
   }
 }
-  /*Fixed the display issue on larger screens*/
+  /*Fixed the review card display issue on larger screens*/
+
   @media screen and (min-width: 1400px) {
     .review-card {
       min-height: 235px;
